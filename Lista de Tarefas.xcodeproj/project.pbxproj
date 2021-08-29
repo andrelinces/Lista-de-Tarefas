@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		D348612426DB141B0038FB05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348612326DB141B0038FB05 /* AppDelegate.swift */; };
 		D348612626DB141B0038FB05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348612526DB141B0038FB05 /* SceneDelegate.swift */; };
-		D348612826DB141B0038FB05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348612726DB141B0038FB05 /* ViewController.swift */; };
+		D348612826DB141B0038FB05 /* TarefasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348612726DB141B0038FB05 /* TarefasTableViewController.swift */; };
 		D348612B26DB141B0038FB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D348612926DB141B0038FB05 /* Main.storyboard */; };
 		D348612E26DB141B0038FB05 /* Lista_de_Tarefas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D348612C26DB141B0038FB05 /* Lista_de_Tarefas.xcdatamodeld */; };
 		D348613026DB141D0038FB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D348612F26DB141D0038FB05 /* Assets.xcassets */; };
 		D348613326DB141D0038FB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D348613126DB141D0038FB05 /* LaunchScreen.storyboard */; };
 		D348613E26DB141D0038FB05 /* Lista_de_TarefasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348613D26DB141D0038FB05 /* Lista_de_TarefasTests.swift */; };
 		D348614926DB141D0038FB05 /* Lista_de_TarefasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348614826DB141D0038FB05 /* Lista_de_TarefasUITests.swift */; };
+		D348615726DB92190038FB05 /* CadastroTarefasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348615626DB92190038FB05 /* CadastroTarefasViewController.swift */; };
+		D348615926DBE9C90038FB05 /* TarefaUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = D348615826DBE9C90038FB05 /* TarefaUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,7 @@
 		D348612026DB141B0038FB05 /* Lista de Tarefas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lista de Tarefas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D348612326DB141B0038FB05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D348612526DB141B0038FB05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D348612726DB141B0038FB05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D348612726DB141B0038FB05 /* TarefasTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefasTableViewController.swift; sourceTree = "<group>"; };
 		D348612A26DB141B0038FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D348612D26DB141B0038FB05 /* Lista_de_Tarefas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lista_de_Tarefas.xcdatamodel; sourceTree = "<group>"; };
 		D348612F26DB141D0038FB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		D348614426DB141D0038FB05 /* Lista de TarefasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lista de TarefasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D348614826DB141D0038FB05 /* Lista_de_TarefasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lista_de_TarefasUITests.swift; sourceTree = "<group>"; };
 		D348614A26DB141D0038FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D348615626DB92190038FB05 /* CadastroTarefasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroTarefasViewController.swift; sourceTree = "<group>"; };
+		D348615826DBE9C90038FB05 /* TarefaUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 			children = (
 				D348612326DB141B0038FB05 /* AppDelegate.swift */,
 				D348612526DB141B0038FB05 /* SceneDelegate.swift */,
-				D348612726DB141B0038FB05 /* ViewController.swift */,
+				D348612726DB141B0038FB05 /* TarefasTableViewController.swift */,
+				D348615626DB92190038FB05 /* CadastroTarefasViewController.swift */,
+				D348615826DBE9C90038FB05 /* TarefaUserDefaults.swift */,
 				D348612926DB141B0038FB05 /* Main.storyboard */,
 				D348612F26DB141D0038FB05 /* Assets.xcassets */,
 				D348613126DB141D0038FB05 /* LaunchScreen.storyboard */,
@@ -261,10 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D348612826DB141B0038FB05 /* ViewController.swift in Sources */,
+				D348612826DB141B0038FB05 /* TarefasTableViewController.swift in Sources */,
+				D348615726DB92190038FB05 /* CadastroTarefasViewController.swift in Sources */,
 				D348612426DB141B0038FB05 /* AppDelegate.swift in Sources */,
 				D348612626DB141B0038FB05 /* SceneDelegate.swift in Sources */,
 				D348612E26DB141B0038FB05 /* Lista_de_Tarefas.xcdatamodeld in Sources */,
+				D348615926DBE9C90038FB05 /* TarefaUserDefaults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

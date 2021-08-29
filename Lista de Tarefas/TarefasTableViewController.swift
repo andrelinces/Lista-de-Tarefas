@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TarefasTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
